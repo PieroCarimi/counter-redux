@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import { useDispatch, useSelector } from "react-redux";
-import { decrement, increment, setInputValue, clearErrorMessage, setErrorMessage} from "./redux/slices";
-import { selectCounter, selectErrorMessage, selectInputValue } from "./redux/selectors";
+import { decrement, increment, setInputValue, clearErrorMessage, setErrorMessage} from "../redux/slices";
+import { selectCounter, selectErrorMessage, selectInputValue } from "../redux/selectors";
 
 const inter = Inter({ subsets: ["latin"] });
 
